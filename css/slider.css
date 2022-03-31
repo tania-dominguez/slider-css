@@ -103,29 +103,11 @@
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    /* background-color: #f99; */
-    background-image: url("../img/1.png");
     background-repeat: no-repeat;
     counter-increment: item;
   }
   
-  .carousel__slide:nth-child(1) {
-    background-image: url("../img/2.png");
-    background-repeat: no-repeat;
-  }
-
-  .carousel__slide:nth-child(2) {
-    background-image: url("../img/3.png");
-    background-repeat: no-repeat;
-  }
-  
-  .carousel__slide:nth-child(3) {
-    background-image: url("../img/4.png");
-    background-repeat: no-repeat;
-  }
-
-  .carousel__slide:nth-child(4) {
-    background-image: url("../img/5.png");
+  .carousel__slide:nth-child(n+1) {
     background-repeat: no-repeat;
   }
   
